@@ -1,18 +1,18 @@
 @font-face {
     font-family: CustomRobotoReg;
-    src: url(./Roboto/Roboto-Light.ttf) format('truetype');
+    src: url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: CustomRobotoBold;
-    src: url(./Roboto/Roboto-Bold.ttf) format('truetype');
+    src: url(../fonts/Roboto/Roboto-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: CustomRobotoLight;
-    src: url(./Roboto/Roboto-LightItalic.ttf) format('truetype');
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
     font-weight: lighter;
     font-style: italic;
 }
@@ -94,6 +94,7 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    line-height: 1.5;
 }
 
 .heroTitle {
@@ -101,11 +102,12 @@ header a {
     margin: 0;
     font-size: 48px;
     font-family: "CustomRobotoBold";
+    line-height: 1.15;
 }
 
 .heroImage {
     max-width: 30vw;
-    max-height: 50vh;
+    max-height: 40vh;
 }
 
 .heroButton {
@@ -144,52 +146,6 @@ main {
     width: 100%;
     padding: 5vh 0;
     min-height: 50vh;
-}
-
-.offerItem {
-    width: 12vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.offerImage {
-    width: 100%;
-    height: 12vw;
-    object-fit: cover;
-    border: #3882F6 2px solid;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.offerImage:hover {
-    width: 15vw;
-    height: 15vw;
-    transition: 0.3s;
-}
-
-.offerText {
-    width: 12vw;
-    min-height: 12vh;
-    text-align: center;
-}
-
-.quoteContainer {
-    background-color: #E5E7EB;
-    min-height: 32vh;
-}
-
-#quote {
-    font-size: 48px;
-    font-family: CustomRobotoLight;
-    text-align: center;
-}
-
-#quoter {
-    font-size: 28px;
-    font-family: CustomRobotoBold;
-    text-align: center;
 }
 
 footer {
