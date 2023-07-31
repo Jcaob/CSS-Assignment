@@ -30,6 +30,7 @@
 .quoteContainer {
     background-color: #E5E7EB;
     min-height: 32vh;
+    width: 100vw;
 }
 
 #quote {
@@ -42,4 +43,52 @@
     font-size: 28px;
     font-family: CustomRobotoBold;
     text-align: center;
+}
+
+.callToActionSection {
+    min-height: 28vh;
+}
+
+.callToAction {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 60%;
+    min-height: 12vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: CustomRobotoBold;
+    border-radius: 20px;
+}
+
+.callToAction h3 {
+    font-size: 36px;
+}
+
+.callToAction p {
+    font-size: 24px;
+}
+
+.callToAction div {
+    margin-left: 40px;
+}
+
+.callToActionButton {
+    display: inline-block;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: #3882F6;
+    border: #E5E7EB 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.callToActionButton:hover {
+    background-color: #2562c4;
+    transition: 0.3s;
 }
