@@ -129,3 +129,10 @@ a {
     color: #1f2937;
     font-size: 48px;
 }
+
+.map {
+    /* padding: 5vh; */
+    border: 0;
+    height: 60vh;
+    width: 60vh;
+}
