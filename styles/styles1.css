@@ -77,22 +77,6 @@ section {
   }
 }
 
-footer {
-  height: 100px;
-  background-color: #1F2937;
-  display: flex;
-  margin-top: 80px;
-  align-items: center;
-  justify-content: space-evenly;
-
-  .c {
-    height: 16px;
-    width: 226;
-    font-size: 12px;
-    color: white;
-    font-family: Roboto;
-  }
-}
 
 @font-face {
   font-family: Roboto;
