@@ -1,0 +1,156 @@
+@font-face {
+    font-family: CustomRobotoReg;
+    src: url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: CustomRobotoBold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: CustomRobotoLight;
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+    font-family: "CustomRobotoReg";
+}
+
+header {
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #1f2937;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar span {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2vw;
+    font-family: "CustomRobotoReg";
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.navbar li {
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    transition: 0.3s;
+}
+
+
+.navbar li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+.heroInfo {
+    max-width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.5;
+}
+
+.heroTitle {
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+    font-family: "CustomRobotoBold";
+    line-height: 1.15;
+}
+
+.heroImage {
+    max-width: 30vw;
+    max-height: 40vh;
+}
+
+.heroButton {
+    display: inline-block;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: #3882F6;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.heroButton:hover {
+    background-color: #3881f6cd;
+    transition: 0.3s;
+}
+
+main {
+    color: #1f2937;
+}
+
+.title {
+    text-align: center;
+    font-family: CustomRobotoBold;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 5vh 0;
+    min-height: 50vh;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+}
