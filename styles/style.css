@@ -22,6 +22,14 @@
     box-sizing: border-box;
 }
 
+ p {
+    text-align: center;
+    white-space: pre-line;
+    color: #1f2937;
+}
+
+
+
 body {
     line-height: 1.5;
     -webkit-font-feature-settings: normal;
