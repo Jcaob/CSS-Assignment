@@ -70,7 +70,6 @@ a {
 }
 
 .hero-1 {
-    color: #1f2937;
     background-color: #f3f4f6;
     display: flex;
     align-items: center;
@@ -80,33 +79,10 @@ a {
     padding-right: 0rem;
     padding: auto;
     justify-content: space-around;
-    flex-direction: row-reverse;
-
 }
 
 .hero-2 {
-    color: #1f2937;
-    background-color: #f3f4f6;
-    display: flex;
-    align-items: center;
-    padding: 3rem;
-    gap: 10px;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    padding: auto;
-    justify-content: space-around;
-    flex-direction: space-around;
-
-}
-
-.hero-main {
-    color: #f9faf8;
-    font-size: 48px;
-}
-
-.hero-secondary {
-    color: #e5e7eb;
-    font-size: 18px;
+    flex-direction: row-reverse;
 }
 
 .hero-sec-2 {

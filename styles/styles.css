@@ -81,6 +81,13 @@ header a {
     transition: 0.3s;
 }
 
+main {
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero {
     display: flex;
     justify-content: space-evenly;
@@ -113,6 +120,10 @@ header a {
     line-height: 1.15;
 }
 
+.heroText {
+    font-size: 18px;
+}
+
 .heroImage {
     max-width: 30vw;
     max-height: 40vh;
@@ -134,12 +145,6 @@ header a {
     transition: 0.3s;
 }
 
-main {
-    color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .title {
     text-align: center;
