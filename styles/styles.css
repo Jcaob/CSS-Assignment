@@ -202,10 +202,3 @@ footer {
 .flexReverse {
     flex-direction: row-reverse;
 }
-
-.map {
-    /* padding: 5vh; */
-    border: 0;
-    height: 60vh;
-    width: 60vh;
-}
